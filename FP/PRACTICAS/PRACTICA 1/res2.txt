@@ -1,0 +1,71 @@
+Ejecutando pruebas "C:\Users\Dani" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+"C:\Users\Dani" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+==========================================================
+Rombo correcto (para lado = -2):
+
+
+----------------------------------------------------------
+Rombo obtenido:
+
+==========================================================
+Correcto!
+==========================================================
+"C:\Users\Dani" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+"C:\Users\Dani" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+==========================================================
+Rombo correcto (para lado = -1):
+
+
+----------------------------------------------------------
+Rombo obtenido:
+
+==========================================================
+Correcto!
+==========================================================
+"C:\Users\Dani" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+"C:\Users\Dani" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+==========================================================
+Rombo correcto (para lado = 0):
+
+
+----------------------------------------------------------
+Rombo obtenido:
+
+==========================================================
+Correcto!
+==========================================================
+"C:\Users\Dani" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+"C:\Users\Dani" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+==========================================================
+Rombo correcto (para lado = 1):
+
+@
+
+----------------------------------------------------------
+Rombo obtenido:
+
+==========================================================
+
+==========================================================
+<< ERROR FORMATO DE ROMBO DE SALIDA NO CORRECTO >>
+==========================================================
+Rombo correcto (para lado = 1):
+
+@
+
+----------------------------------------------------------
+Rombo obtenido:
+
+==========================================================
