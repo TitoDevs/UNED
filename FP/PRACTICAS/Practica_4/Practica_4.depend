@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1611349970 source:c:\users\dani guardado\desktop\uned\fp\fp\practicas\practica_4\menu.cpp
+	<stdio.h>
+	"Menu.h"
+
+1611173036 c:\users\dani guardado\desktop\uned\fp\fp\practicas\practica_4\altapaciente.cpp
+	<stdio.h>
+	"AltaPaciente.h"
+
+1611273490 source:c:\users\dani guardado\desktop\uned\fp\fp\practicas\practica_4\altapaciente.cpp
+	<stdio.h>
+	"AltaPaciente.h"
+
+1611348852 source:c:\users\dani guardado\desktop\uned\fp\fp\practicas\practica_4\calendariopedidos.cpp
+	<stdio.h>
+	"CalendarioPedidos.h"
+	"ListaPedidos.h"
+
+1611349251 source:c:\users\dani guardado\desktop\uned\fp\fp\practicas\practica_4\listapedidos.cpp
+	<stdio.h>
+	"ListaPedidos.h"
+
+1611279531 c:\users\dani guardado\desktop\uned\fp\fp\practicas\practica_4\altapaciente.h
+
+1611184104 c:\users\dani guardado\desktop\uned\fp\fp\practicas\practica_4\menu.h
+	"AltaPaciente.h"
+	"UbicarPaciente.h"
+	"NuevoPedido.h"
+	"ListaPedidos.h"
+	"CalendarioPedidos.h"
+
+1611279822 c:\users\dani guardado\desktop\uned\fp\fp\practicas\practica_4\calendariopedidos.h
+	"AltaPaciente.h"
+	"ListaPedidos.h"
+
+1611279822 c:\users\dani guardado\desktop\uned\fp\fp\practicas\practica_4\listapedidos.h
+	"AltaPaciente.h"
+
+1611279284 c:\users\dani guardado\desktop\uned\fp\fp\practicas\practica_4\ubicarpaciente.h
+
+1611279531 source:c:\users\dani guardado\desktop\uned\fp\fp\practicas\practica_4\ubicarpaciente.cpp
+	<stdio.h>
+	"AltaPaciente.h"
+	"UbicarPaciente.h"
+
+1611349937 source:c:\users\dani guardado\desktop\uned\fp\fp\practicas\practica_4\practica_4.cpp
+	"Menu.h"
+
+1611261559 c:\users\dani guardado\desktop\uned\fp\fp\practicas\practica_4\nuevopedido.h
+	"AltaPaciente.h"
+
+1611347950 source:c:\users\dani guardado\desktop\uned\fp\fp\practicas\practica_4\nuevopedido.cpp
+	<stdio.h>
+	"ListaPedidos.h"
+	"NuevoPedido.h"
+	"AltaPaciente.h"
+
