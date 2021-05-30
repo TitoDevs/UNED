@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=AsigTecnico
+comment0.text=\r\n\ AsigTecnico\ es\ la\ clase\ donde\ vamos\ a\ asignar\ un\ tecnico\ a\ un\ paciente.\r\n\ \r\n\ @author\ Luis\ Daniel\ Guardado\ Garcia\ \r\n\ @version\ v1.0\r\n
+comment1.params=empleados\ pacientes
+comment1.target=AsigTecnico(Empleados,\ Pacientes)
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=3

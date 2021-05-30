@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Prueba
+comment0.text=\r\n\ Prueba\ es\ la\ clase\ que\ utiliza\ los\ tecnicos\ para\ realizar\ las\ pruebas\ de\ los\ pacientes.\r\n\ \r\n\ @author\ Luis\ Daniel\ Guardado\ Garcia\ \r\n\ @version\ v1.0\r\n
+comment1.params=empleados\ pacientes
+comment1.target=Prueba(Empleados,\ Pacientes)
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=3

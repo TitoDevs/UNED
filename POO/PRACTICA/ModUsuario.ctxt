@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ModUsuario
+comment0.text=\r\n\ Mod\ Usuario\ es\ una\ clase\ que\ utilizaremos\ para\ modificar\ todos\ los\ usuarios\ del\ sistema.\r\n\ \r\n\ @author\ Luis\ Daniel\ Guardado\ Garcia\ \r\n\ @version\ v1.0\r\n
+comment1.params=empleados\ pacientes
+comment1.target=ModUsuario(Empleados,\ Pacientes)
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=4
