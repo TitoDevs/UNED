@@ -1,6 +1,6 @@
 # UNED
-Aqui se encontrarán todas las prácticas del Grado Ingeniería Informática.
-Las asignaturas son (por ahora):
-- Fundamentos de la programación (C+-)
-- Programación Orientada a Objetos (Java)
-- Estrategias de Programación y Estructuras de Datos (Java)
+En este directorio iré subiendo prácticas de la universidad que me parezcan interesantes.
+Por ahora los lenguajes de programación son:
+- Java
+- C
+- Haskell
