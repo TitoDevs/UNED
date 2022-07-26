@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=PruebasDiagnosticas
+comment0.text=\r\n\ Pruebas\ diagn\u00F3sticas\ es\ la\ clase\ donde\ vamos\ a\ almacenar\ los\ tres\ tipos\ de\ pruebas,\ que\ son\:\r\n\ las\ pruebas\ de\ ant\u00EDgenos,\ los\ PCRs\ y\ los\ an\u00E1lisis\ serol\u00F3gicos.\r\n\ \r\n\ @author\ Luis\ Daniel\ Guardado\ Garcia\ \r\n\ @version\ v1.0\r\n
+comment1.params=
+comment1.target=PruebasDiagnosticas()
+comment2.params=
+comment2.target=void\ setPruebasAntigenos()
+comment3.params=
+comment3.target=int\ getPruebasAntigenos()
+comment4.params=
+comment4.target=void\ setPCR()
+comment5.params=
+comment5.target=int\ getPCR()
+comment6.params=
+comment6.target=void\ setAnalisisSerologicos()
+comment7.params=
+comment7.target=int\ getAnalisisSerologicos()
+numComments=8
