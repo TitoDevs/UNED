@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=Personas
-comment0.text=\r\n\ Personas\ es\ la\ clase\ donde\ vamos\ a\ almacenar\ los\ tipos\ de\ personas\ que\ en\ este\ caso\ son\ los\r\n\ pacientes\ de\ la\ cl\u00EDnica\ y\ sus\ empleados.\r\n\ \r\n\ @author\ Luis\ Daniel\ Guardado\ Garcia\ \r\n\ @version\ v1.0\r\n
-comment1.params=empleado
-comment1.target=void\ acceder(Empleados)
-numComments=2

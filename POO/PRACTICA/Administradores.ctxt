@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=Administradores
-comment0.text=\r\n\ Administradores\ es\ la\ clase\ donde\ vamos\ a\ almacenar\ toda\ la\ informaci\u00F3n\ de\ todos\ los\r\n\ administradores.\r\n\ \r\n\ @author\ Luis\ Daniel\ Guardado\ Garcia\ \r\n\ @version\ v1.0\r\n
-comment1.params=ID\ fecha\ nombre\ apellidos\ edad\ sexo\ usuario
-comment1.target=Administradores(java.lang.String,\ java.util.Date,\ java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ java.lang.String)
-numComments=2

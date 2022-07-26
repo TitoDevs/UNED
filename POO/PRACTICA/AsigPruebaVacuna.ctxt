@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.target=AsigPruebaVacuna
-comment0.text=\r\n\ AsigPruebaVacuna\ es\ la\ clase\ que\ se\ utiliza\ para\ que\ los\ enfermeros\ asignen\ una\ vacuna\ o\ prueba.\r\n\ \r\n\ @author\ Luis\ Daniel\ Guardado\ Garcia\ \r\n\ @version\ v1.0\r\n
-comment1.params=empleados\ pacientes
-comment1.target=AsigPruebaVacuna(Empleados,\ Pacientes)
-comment2.params=e
-comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
-numComments=3
