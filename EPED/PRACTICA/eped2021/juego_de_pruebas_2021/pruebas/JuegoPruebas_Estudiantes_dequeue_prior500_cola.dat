@@ -1,3 +1,0 @@
-enqueue p1-500 500
-enqueue p2-500 500
-dequeue p1-500 500
