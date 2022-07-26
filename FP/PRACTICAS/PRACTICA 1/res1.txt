@@ -1,5 +1,0 @@
-"C:\Users\Dani" no se reconoce como un comando interno o externo,
-programa o archivo por lotes ejecutable.
-==========================================================
-<<OK>>: El resultado de la primera practica es correcto
-==========================================================
