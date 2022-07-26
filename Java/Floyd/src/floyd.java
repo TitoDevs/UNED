@@ -73,6 +73,7 @@ public class floyd {
                 }
             }
         }
+        
         resumen.append("\nPasamos a VerRutas\n");                                                         // 1
         resumen.append("\n============== VerRutas ==============\n\n");                                   // 1
         resumen.append("La entrada de este algorimo consiste en dos tablas denominadas m y ruta, y un\n");// 1
@@ -170,7 +171,6 @@ public class floyd {
                     }                                                                                     // n
                     num++;
                 }
-
                 // Esto es un miniprograma que consiste en comprobar si es necesario crear una salida.txt o imprimirla por pantalla.
                 if (salida.equals("0")) {                                                                 // 1
                     int n = arrayInt.length;
