@@ -85,4 +85,4 @@ de tal forma que los pacientes que aún no hayan sido vacunados tendrán priorid
 en función de su edad. De esta manera, los mayores de 65 años estarán en el
 primer grupo de vacunación, y el resto de pacientes en el segundo grupo. Se ha de
 asignar el tipo de vacuna que se pondrá así como el enfermero que administrará la
-vacuna. Para la administración de una vacuna que requiere dos dosis, el enfermero
+vacuna. Para la administración de una vacuna que requiere dos dosis, el enfermero.
