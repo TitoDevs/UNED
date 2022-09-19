@@ -1,6 +1,5 @@
 %----------------------------------------------------------------------
-% PEC 2 Fundamentos de Inteligencia Articial 2022
-% Luis Daniel Guardado Garcia                               UNED CADIZ
+% TitoDev                              
 % ---------------------------------------------------------------------
 
 %Constantes
