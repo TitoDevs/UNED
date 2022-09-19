@@ -85,4 +85,54 @@ de tal forma que los pacientes que aún no hayan sido vacunados tendrán priorid
 en función de su edad. De esta manera, los mayores de 65 años estarán en el
 primer grupo de vacunación, y el resto de pacientes en el segundo grupo. Se ha de
 asignar el tipo de vacuna que se pondrá así como el enfermero que administrará la
-vacuna. Para la administración de una vacuna que requiere dos dosis, el enfermero.
+vacuna. Para la administración de una vacuna que requiere dos dosis, el enfermero
+que realizará la vacunación al paciente será el mismo en ambas dosis. La
+asignación de un tipo u otro de vacuna a los pacientes es aleatoria. A la hora de
+vacunar a un paciente se asegurará que, si el paciente a vacunar es menor de 65
+años, todos los pacientes del sistema pertenecientes al grupo prioritario (mayores de
+65 años), hayan recibido ya su vacuna completa. Además se comprobará también el
+tipo de vacuna: si la vacuna requiere dos dosis y el paciente ya ha recibido la
+primera dosis, se comprobará que han pasado al menos 21 días desde la primera
+dosis para poder realizar la segunda dosis. No existe restricción temporal para la
+administración de la segunda dosis una vez hayan transcurrido esos 21 días.
+
+Siguiendo las funcionalidades indicadas anteriormente, las acciones que podrán llevar a
+cabo cada tipo de usuario de la aplicación serán las siguientes:
+
+- Administrador:
+
+    ○ Gestión de usuarios: altas, bajas y modificaciones de todas las personas
+      registradas en el sistema (pacientes, técnicos y enfermeros).
+      
+    ○ Asignación de pruebas diagnósticas a enfermeros y técnicos y asignación de
+      vacunaciones a enfermeros.
+      
+    ○ Visualización de datos de todas las personas registradas en el sistema.
+    
+    ○ Visualización de pacientes asignados a cada enfermero/técnico para pruebas
+      diagnósticas y vacunaciones.
+      
+    ○ Visualización del listado de pacientes confinados y las fechas de
+      confinamiento.
+      
+    ○ Gestión de la programación de pruebas serológicas tras los confinamientos.
+    
+    ○ Actualización del stock de vacunas.
+    
+    ○ Visualización de la planificación tentativa de vacunas, a partir de los
+      pacientes registrados en un momento determinado.
+      
+- Enfermero:
+
+    ○ Visualización de datos de los pacientes asignados (fechas de
+      pruebas/vacunación, resultados, fechas de confinamiento, etc.).
+      
+    ○ Registro y actualización de pruebas diagnósticas y vacunación a sus
+      pacientes.
+      
+- Técnico:
+
+    ○ Visualización de datos de los pacientes asignados (fechas de pruebas
+      diagnósticas y resultados de las mismas).
+      
+    ○ Registro y actualización de los resultados de las pruebas diagnósticas.
