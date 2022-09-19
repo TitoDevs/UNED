@@ -33,11 +33,11 @@ embargo, sólo requiere de la administración de una dosis.
 
 En general, las funciones que tiene el sistema de gestión de la clínica son las siguientes:
 
-● Gestión de usuarios: altas, bajas, modificaciones de las personas que figuran en el
+- Gestión de usuarios: altas, bajas, modificaciones de las personas que figuran en el
 sistema (empleados -- administradores, técnicos y enfermeros -- y pacientes). La
 primera vez que acude un cliente a la clínica hay que darle de alta en el sistema.
 
-● Realización de una prueba diagnóstica: los clientes acuden a la clínica para
+- Realización de una prueba diagnóstica: los clientes acuden a la clínica para
 realizarse la prueba diagnóstica que le haya indicado su centro de salud. Esta
 prueba puede ser de los tipos indicados anteriormente, y será necesario almacenar
 la fecha de realización de la prueba, así como su resultado. Un paciente puede
@@ -55,7 +55,7 @@ semana. En cuanto a los técnicos de laboratorio, sólo pueden dedicarse al aná
 de 4 pruebas por semana, por lo que será necesario comprobar estas restricciones a
 la hora de asignar un enfermero y un técnico para realizar una prueba.
 
-● Gestión de pacientes confinados: cuando un paciente resulta positivo en un test de
+- Gestión de pacientes confinados: cuando un paciente resulta positivo en un test de
 antígenos o en una prueba PCR, ha de mantenerse confinado en su casa durante 10
 días. La clínica se encarga de gestionar las llamadas a dichos pacientes para
 comprobar que están cumpliendo el confinamiento, por lo que es necesario saber si
@@ -64,14 +64,14 @@ confinamiento. Cuando un paciente positivo finaliza su tiempo de confinamiento, 
 le programa una prueba serológica para medir su nivel de anticuerpos de la
 enfermedad.
 
-● Comunicación con los pacientes: la función del administrador de la clínica será la de
+- Comunicación con los pacientes: la función del administrador de la clínica será la de
 ponerse en contacto con los pacientes que están confinados en sus casas para
 comprobar que efectivamente están cumpliendo el confinamiento. Para ello podrá
 obtener en todo momento el listado de dichos pacientes. Además, podrá generar un
 listado de pacientes que han terminado su confinamiento para convocarles a un test
 serológico.
 
-● Gestión del stock de vacunas: Cada determinado tiempo, la clínica recibe stock de
+- Gestión del stock de vacunas: Cada determinado tiempo, la clínica recibe stock de
 los tres tipos de vacunas que gestiona, de tal forma que se almacenará en el
 sistema la cantidad de dosis recibidas de cada una de las vacunas. Para simplificar
 la gestión del stock, se considera que cada “unidad” de vacuna almacenada
@@ -79,7 +79,7 @@ representa todas las dosis necesarias para alcanzar completa inmunidad (es decir
 una unidad de la vacuna de Pfizer o Moderna contiene dos dosis, y una unidad de la
 vacuna de Johnson&Johnson contiene una dosis).
 
-● Gestión de la vacunación: Los pacientes pasarán por la clínica para vacunarse. Para
+- Gestión de la vacunación: Los pacientes pasarán por la clínica para vacunarse. Para
 ello, se gestionará una campaña de vacunación basada en la edad de los pacientes,
 de tal forma que los pacientes que aún no hayan sido vacunados tendrán prioridad
 en función de su edad. De esta manera, los mayores de 65 años estarán en el
