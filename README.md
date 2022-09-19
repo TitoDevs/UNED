@@ -1,6 +1,6 @@
-# UNED
-En este directorio iré subiendo prácticas de la universidad que me parezcan interesantes.
-Por ahora los lenguajes de programación son:
+# Prácticas UNED
+Los lenguajes de programación usados son:
 - Java
-- C
 - Haskell
+- Prolog
+- C
