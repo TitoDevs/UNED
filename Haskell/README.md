@@ -1,46 +1,22 @@
-La práctica consiste en elaborar un programa en Haskell que permita al usuario usar arrays
-dispersos y mostrar que se puede acceder y modificar sus elementos en un tiempo logarítmico con
-respecto al índice utilizado. Consideraremos que los índices son valores enteros mayores o iguales a
-cero.
+![Banner Linkedin (4)](https://user-images.githubusercontent.com/75398496/207839841-80a4e8aa-1a1b-4652-81e1-3a6b8cfb591a.png)
 
-Se implementarán tres operaciones para trabajar con los arrays dispersos:
+# ¿Qué es Haskell?
+Haskell (pronunciado /hæskəl/) es un lenguaje de programación estandarizado multi-propósito, funcionalmente puro, con evaluación no estricta y memorizada, y fuerte tipificación estática. Su nombre se debe al lógico estadounidense Haskell Curry, debido a su aporte al cálculo lambda, el cual tiene gran influencia en el lenguaje. En Haskell, "una función es un ciudadano de primera clase" del lenguaje de programación. Como lenguaje de programación funcional, el constructor de controles primario es la función. El lenguaje tiene sus orígenes en las observaciones de Haskell Curry y sus descendientes intelectuales.
 
-1. set: que recibirá un array disperso a, un índice i y un elemento e y devolverá el array
-disperso resultado de insertar en a el elemento e bajo el índice i. Si antes de la inserción
-hubiera un elemento en a indexado bajo ese mismo índice i, entonces el elemento anterior
-se perdería, siendo substituido por e.
+# Características
+Las características más interesantes de Haskell incluyen el soporte para tipos de datos y funciones recursivas, listas, tuplas, guardas y encaje de patrones. La combinación de las mismas pueden resultar en algunas funciones casi triviales cuya versión en lenguajes imperativos pueden llegar a resultar extremadamente tediosas de programar. Haskell es, desde 2002, uno de los lenguajes funcionales sobre los que más se ha investigado. Se han desarrollado muchas variantes:
 
-2. get: que recibirá un array disperso a y un índice i y devolverá el elemento de a que esté
-indexado bajo el índice i. Si no existe, devolverá un valor Null (ver apartado de
-implementación).
+Versiones paralelas del MIT y Glasgow, ambas denominadas Parallel Haskell.
+Más versiones paralelas y distribuidas de Haskell llamadas Distributed Haskell (anteriormente Goffin) y Eden.
+Una versión con ejecución especulativa: Eager Haskell.
+Varias versiones orientadas a objetos: Haskell++, O'Haskell y Mondrian.
+Una versión educativa llamada Gofer desarrollada por Mark Jones que fue suplantada por Hugs (ver abajo).
 
-3. delete: que recibirá un array disperso a y un índice i y devolverá el array disperso
-resultado de eliminar de a el elemento indexado bajo el índice i. Si no existiera un elemento
-indexado bajo ese índice, se devolverá el array disperso a sin ninguna modificación.
-Estos arrays se van a implementar mediante un árbol binario en el que cada nodo (salvo la raíz)
-estará asociado a un número entero desde el 0 en adelante. Para localizar el nodo correspondiente a
-un número n, se realiza el siguiente proceso:
+# Historia
+A partir de la publicación de Miranda, en 1985, los lenguajes funcionales proliferaron. En 1987, existían compitiendo entre ellos más de una docena de lenguajes de programación puros funcionales no estrictos. Durante la conferencia sobre Lenguajes de Programación Funcional y Arquitecturas de Ordenador (FPCA '87) en Portland, Oregón, se mantuvo un encuentro durante el cual se alcanzó un fuerte consenso entre sus participantes para formar un comité que definiese un estándar abierto para tales lenguajes. Esto se hizo con el propósito expreso de consolidar los lenguajes existentes en uno único que sirviera como base para la investigación futura en diseño de lenguajes. La primera versión de Haskell ("Haskell 1.0") se definió en 1990. Los esfuerzos del comité resultaron en una serie de definiciones del lenguaje, que culminaron a finales de 1997 en Haskell 98, que se intentó fuera una versión del lenguaje mínima, estable y portable, junto con una biblioteca estándar asociada para la enseñanza, y como base de futuras extensiones. El comité expresamente aprobó la creación de extensiones y variantes de Haskell 98 mediante la adición e incorporación de características experimentales.
 
-1. Comenzamos el recorrido en el nodo raíz del árbol binario.  
-2. Se recorre la secuencia de dígitos de la representación binaria de la posición buscada, desde
-el dígito más significativo al menos significativo.  
-a. Si el dígito es un 0, se desciende por el hijo izquierdo del nodo actual.  
-b. Si el dígito es un 1, se desciende por el hijo derecho del nodo actual.  
-3. El nodo buscado es el nodo donde termina el camino al haber recorrido todos los dígitos de
-la secuencia.  
+En enero de 1999, el estándar del lenguaje Haskell 98 se publicó en "The Haskell 98 Report". En enero de 2003, se publicó una versión revisada en "Haskell 98 Language and Libraries: The Revised Report". El lenguaje continúa evolucionando rápidamente, con las implementaciones de Hugs y de GHC (véase más adelante), que representan el actual estándar de facto. A principios del 2006 comenzó el proceso de definición de un sucesor del estándar de Haskell 98, llamado informalmente Haskell′ ("Haskell Prime"). Este proceso intenta producir una revisión menor de Haskell 98. En 2010 se lanza Haskell 2010.
 
-Por ejemplo, si buscamos el nodo número 25, los pasos anteriores serían las siguientes, que se
-corresponden con el recorrido gráfico que se puede ver a la derecha:
-
-1. Comenzamos el recorrido en el nodo raíz del árbol binario y recorremos la secuencia de dígitos de la representación binaria de 25, que es 11001:
-
-a. Tenemos un 1, descendemos por el hijo derecho.  
-b. Tenemos un 1, descendemos por el hijo derecho.  
-c. Tenemos un 0, descendemos por el hijo izquierdo.  
-d. Tenemos un 0, descendemos por el hijo izquierdo.  
-e. Tenemos un 1, descendemos por el hijo derecho.  
-
-2. Hemos llegado al nodo buscado.
-
-Para que esto funcione correctamente, la operación set deberá encargarse de añadir tantos nodos como sean necesarios para completar el recorrido desde la raíz al nodo que contendrá el elemento a insertar.
-De igual manera, la operación delete se encargará de borrar todos los nodos que ya no sean necesarios tras eliminar el nodo que contenía el elemento borrado.
+# Enlaces externos
+- https://es.wikipedia.org/wiki/Haskell
+- https://www.haskell.org/
