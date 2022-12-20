@@ -1,3 +1,5 @@
+# Ejercicio Clinica
+
 La práctica consiste en implementar un sistema integrado de gestión de una clínica
 especializada en COVID-19. En el inicio de la pandemia se dedicaban fundamentalmente a
 la realización de pruebas diagnósticas para determinar si los pacientes tenían la
